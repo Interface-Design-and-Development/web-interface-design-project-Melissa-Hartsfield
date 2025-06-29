@@ -1,0 +1,81 @@
+/* style.css */
+body {
+    max-width: 1020px;;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.input-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.IceCream-Image{
+    width: 150px;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+textarea {
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+.button-row button{
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button-row button:hover{
+    background-color: #0056b3;
+}
+
+.button-row button:first-child{
+    margin-left: 0;
+}
+
+.button-row button:last-child{
+    margin-right: 0;
+}
+
+#status {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+@media(max-width: 600px){
+    .button-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .button-row button{
+        width: 100%;
+    }
+}
