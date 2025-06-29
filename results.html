@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Your Favorite Ice Cream is </h1>
+    <p id="results"></p>
+    <script>
+        const name = localStorage.getItem("mydata");
+        document.getElementById("results").innerText = "Your favorite ice cream is " + name;
+    </script>
+</body>
+</html>
